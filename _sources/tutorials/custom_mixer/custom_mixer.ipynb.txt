@@ -46,10 +46,10 @@
    "execution_count": 1,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-02-22T23:13:11.209702Z",
-     "iopub.status.busy": "2024-02-22T23:13:11.209430Z",
-     "iopub.status.idle": "2024-02-22T23:13:11.217835Z",
-     "shell.execute_reply": "2024-02-22T23:13:11.217224Z"
+     "iopub.execute_input": "2024-04-19T21:35:48.826854Z",
+     "iopub.status.busy": "2024-04-19T21:35:48.826652Z",
+     "iopub.status.idle": "2024-04-19T21:35:48.835027Z",
+     "shell.execute_reply": "2024-04-19T21:35:48.834351Z"
     }
    },
    "outputs": [
@@ -133,10 +133,10 @@
    "execution_count": 2,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-02-22T23:13:11.255655Z",
-     "iopub.status.busy": "2024-02-22T23:13:11.255132Z",
-     "iopub.status.idle": "2024-02-22T23:13:14.295509Z",
-     "shell.execute_reply": "2024-02-22T23:13:14.294809Z"
+     "iopub.execute_input": "2024-04-19T21:35:48.870022Z",
+     "iopub.status.busy": "2024-04-19T21:35:48.869778Z",
+     "iopub.status.idle": "2024-04-19T21:35:51.616511Z",
+     "shell.execute_reply": "2024-04-19T21:35:51.615777Z"
     }
    },
    "outputs": [
@@ -144,238 +144,238 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:lightwood-3157:No torchvision detected, image helpers not supported.\u001b[0m\n"
+      "\u001b[32mINFO:lightwood-2441:No torchvision detected, image helpers not supported.\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:lightwood-3157:No torchvision/pillow detected, image encoder not supported\u001b[0m\n"
+      "\u001b[32mINFO:lightwood-2441:No torchvision/pillow detected, image encoder not supported\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:type_infer-3157:Analyzing a sample of 298\u001b[0m\n"
+      "\u001b[32mINFO:type_infer-2441:Analyzing a sample of 298\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:type_infer-3157:from a total population of 303, this is equivalent to 98.3% of your data.\u001b[0m\n"
+      "\u001b[32mINFO:type_infer-2441:from a total population of 303, this is equivalent to 98.3% of your data.\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:type_infer-3157:Infering type for: age\u001b[0m\n"
+      "\u001b[32mINFO:type_infer-2441:Infering type for: age\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:type_infer-3157:Column age has data type integer\u001b[0m\n"
+      "\u001b[32mINFO:type_infer-2441:Column age has data type integer\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:type_infer-3157:Infering type for: sex\u001b[0m\n"
+      "\u001b[32mINFO:type_infer-2441:Infering type for: sex\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:type_infer-3157:Column sex has data type binary\u001b[0m\n"
+      "\u001b[32mINFO:type_infer-2441:Column sex has data type binary\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:type_infer-3157:Infering type for: cp\u001b[0m\n"
+      "\u001b[32mINFO:type_infer-2441:Infering type for: cp\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:type_infer-3157:Column cp has data type categorical\u001b[0m\n"
+      "\u001b[32mINFO:type_infer-2441:Column cp has data type categorical\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:type_infer-3157:Infering type for: trestbps\u001b[0m\n"
+      "\u001b[32mINFO:type_infer-2441:Infering type for: trestbps\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:type_infer-3157:Column trestbps has data type integer\u001b[0m\n"
+      "\u001b[32mINFO:type_infer-2441:Column trestbps has data type integer\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:type_infer-3157:Infering type for: chol\u001b[0m\n"
+      "\u001b[32mINFO:type_infer-2441:Infering type for: chol\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:type_infer-3157:Column chol has data type integer\u001b[0m\n"
+      "\u001b[32mINFO:type_infer-2441:Column chol has data type integer\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:type_infer-3157:Infering type for: fbs\u001b[0m\n"
+      "\u001b[32mINFO:type_infer-2441:Infering type for: fbs\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:type_infer-3157:Column fbs has data type binary\u001b[0m\n"
+      "\u001b[32mINFO:type_infer-2441:Column fbs has data type binary\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:type_infer-3157:Infering type for: restecg\u001b[0m\n"
+      "\u001b[32mINFO:type_infer-2441:Infering type for: restecg\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:type_infer-3157:Column restecg has data type categorical\u001b[0m\n"
+      "\u001b[32mINFO:type_infer-2441:Column restecg has data type categorical\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:type_infer-3157:Infering type for: thalach\u001b[0m\n"
+      "\u001b[32mINFO:type_infer-2441:Infering type for: thalach\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:type_infer-3157:Column thalach has data type integer\u001b[0m\n"
+      "\u001b[32mINFO:type_infer-2441:Column thalach has data type integer\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:type_infer-3157:Infering type for: exang\u001b[0m\n"
+      "\u001b[32mINFO:type_infer-2441:Infering type for: exang\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:type_infer-3157:Column exang has data type binary\u001b[0m\n"
+      "\u001b[32mINFO:type_infer-2441:Column exang has data type binary\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:type_infer-3157:Infering type for: oldpeak\u001b[0m\n"
+      "\u001b[32mINFO:type_infer-2441:Infering type for: oldpeak\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:type_infer-3157:Column oldpeak has data type float\u001b[0m\n"
+      "\u001b[32mINFO:type_infer-2441:Column oldpeak has data type float\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:type_infer-3157:Infering type for: slope\u001b[0m\n"
+      "\u001b[32mINFO:type_infer-2441:Infering type for: slope\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:type_infer-3157:Column slope has data type categorical\u001b[0m\n"
+      "\u001b[32mINFO:type_infer-2441:Column slope has data type categorical\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:type_infer-3157:Infering type for: ca\u001b[0m\n"
+      "\u001b[32mINFO:type_infer-2441:Infering type for: ca\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:type_infer-3157:Column ca has data type categorical\u001b[0m\n"
+      "\u001b[32mINFO:type_infer-2441:Column ca has data type categorical\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:type_infer-3157:Infering type for: thal\u001b[0m\n"
+      "\u001b[32mINFO:type_infer-2441:Infering type for: thal\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:type_infer-3157:Column thal has data type categorical\u001b[0m\n"
+      "\u001b[32mINFO:type_infer-2441:Column thal has data type categorical\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:type_infer-3157:Infering type for: target\u001b[0m\n"
+      "\u001b[32mINFO:type_infer-2441:Infering type for: target\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:type_infer-3157:Column target has data type binary\u001b[0m\n"
+      "\u001b[32mINFO:type_infer-2441:Column target has data type binary\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:dataprep_ml-3157:Starting statistical analysis\u001b[0m\n"
+      "\u001b[32mINFO:dataprep_ml-2441:Starting statistical analysis\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:dataprep_ml-3157:Finished statistical analysis\u001b[0m\n"
+      "\u001b[32mINFO:dataprep_ml-2441:Finished statistical analysis\u001b[0m\n"
      ]
     },
     {
@@ -502,7 +502,7 @@
       "        \"unbias_target\": true,\n",
       "        \"seconds_per_mixer\": 42768.0,\n",
       "        \"seconds_per_encoder\": null,\n",
-      "        \"expected_additional_time\": 0.06512737274169922,\n",
+      "        \"expected_additional_time\": 0.06999492645263672,\n",
       "        \"time_aim\": 259200,\n",
       "        \"target_weights\": null,\n",
       "        \"positive_domain\": false,\n",
@@ -571,10 +571,10 @@
    "execution_count": 3,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-02-22T23:13:14.298250Z",
-     "iopub.status.busy": "2024-02-22T23:13:14.298035Z",
-     "iopub.status.idle": "2024-02-22T23:13:14.301474Z",
-     "shell.execute_reply": "2024-02-22T23:13:14.300899Z"
+     "iopub.execute_input": "2024-04-19T21:35:51.619498Z",
+     "iopub.status.busy": "2024-04-19T21:35:51.619054Z",
+     "iopub.status.idle": "2024-04-19T21:35:51.622705Z",
+     "shell.execute_reply": "2024-04-19T21:35:51.622040Z"
     }
    },
    "outputs": [],
@@ -603,10 +603,10 @@
    "execution_count": 4,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-02-22T23:13:14.303826Z",
-     "iopub.status.busy": "2024-02-22T23:13:14.303614Z",
-     "iopub.status.idle": "2024-02-22T23:13:14.507191Z",
-     "shell.execute_reply": "2024-02-22T23:13:14.506611Z"
+     "iopub.execute_input": "2024-04-19T21:35:51.625287Z",
+     "iopub.status.busy": "2024-04-19T21:35:51.624913Z",
+     "iopub.status.idle": "2024-04-19T21:35:51.963100Z",
+     "shell.execute_reply": "2024-04-19T21:35:51.962334Z"
     }
    },
    "outputs": [],
@@ -622,10 +622,10 @@
    "execution_count": 5,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-02-22T23:13:14.510389Z",
-     "iopub.status.busy": "2024-02-22T23:13:14.509950Z",
-     "iopub.status.idle": "2024-02-22T23:13:15.121413Z",
-     "shell.execute_reply": "2024-02-22T23:13:15.120873Z"
+     "iopub.execute_input": "2024-04-19T21:35:51.965976Z",
+     "iopub.status.busy": "2024-04-19T21:35:51.965697Z",
+     "iopub.status.idle": "2024-04-19T21:35:52.583320Z",
+     "shell.execute_reply": "2024-04-19T21:35:52.582634Z"
     }
    },
    "outputs": [
@@ -633,352 +633,352 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:dataprep_ml-3157:[Learn phase 1/8] - Statistical analysis\u001b[0m\n"
+      "\u001b[32mINFO:dataprep_ml-2441:[Learn phase 1/8] - Statistical analysis\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:dataprep_ml-3157:Starting statistical analysis\u001b[0m\n"
+      "\u001b[32mINFO:dataprep_ml-2441:Starting statistical analysis\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:dataprep_ml-3157:Finished statistical analysis\u001b[0m\n"
+      "\u001b[32mINFO:dataprep_ml-2441:Finished statistical analysis\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[37mDEBUG:lightwood-3157: `analyze_data` runtime: 0.03 seconds\u001b[0m\n"
+      "\u001b[37mDEBUG:lightwood-2441: `analyze_data` runtime: 0.03 seconds\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:dataprep_ml-3157:[Learn phase 2/8] - Data preprocessing\u001b[0m\n"
+      "\u001b[32mINFO:dataprep_ml-2441:[Learn phase 2/8] - Data preprocessing\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:dataprep_ml-3157:Cleaning the data\u001b[0m\n"
+      "\u001b[32mINFO:dataprep_ml-2441:Cleaning the data\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[37mDEBUG:lightwood-3157: `preprocess` runtime: 0.01 seconds\u001b[0m\n"
+      "\u001b[37mDEBUG:lightwood-2441: `preprocess` runtime: 0.01 seconds\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:dataprep_ml-3157:[Learn phase 3/8] - Data splitting\u001b[0m\n"
+      "\u001b[32mINFO:dataprep_ml-2441:[Learn phase 3/8] - Data splitting\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:dataprep_ml-3157:Splitting the data into train/test\u001b[0m\n"
+      "\u001b[32mINFO:dataprep_ml-2441:Splitting the data into train/test\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[37mDEBUG:lightwood-3157: `split` runtime: 0.01 seconds\u001b[0m\n"
+      "\u001b[37mDEBUG:lightwood-2441: `split` runtime: 0.01 seconds\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:dataprep_ml-3157:[Learn phase 4/8] - Preparing encoders\u001b[0m\n"
+      "\u001b[32mINFO:dataprep_ml-2441:[Learn phase 4/8] - Preparing encoders\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[37mDEBUG:dataprep_ml-3157:Preparing sequentially...\u001b[0m\n"
+      "\u001b[37mDEBUG:dataprep_ml-2441:Preparing sequentially...\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[37mDEBUG:dataprep_ml-3157:Preparing encoder for age...\u001b[0m\n"
+      "\u001b[37mDEBUG:dataprep_ml-2441:Preparing encoder for age...\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[37mDEBUG:dataprep_ml-3157:Preparing encoder for sex...\u001b[0m\n"
+      "\u001b[37mDEBUG:dataprep_ml-2441:Preparing encoder for sex...\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[37mDEBUG:dataprep_ml-3157:Preparing encoder for cp...\u001b[0m\n"
+      "\u001b[37mDEBUG:dataprep_ml-2441:Preparing encoder for cp...\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[37mDEBUG:lightwood-3157:Encoding UNKNOWN categories as index 0\u001b[0m\n"
+      "\u001b[37mDEBUG:lightwood-2441:Encoding UNKNOWN categories as index 0\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[37mDEBUG:dataprep_ml-3157:Preparing encoder for trestbps...\u001b[0m\n"
+      "\u001b[37mDEBUG:dataprep_ml-2441:Preparing encoder for trestbps...\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[37mDEBUG:dataprep_ml-3157:Preparing encoder for chol...\u001b[0m\n"
+      "\u001b[37mDEBUG:dataprep_ml-2441:Preparing encoder for chol...\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[37mDEBUG:dataprep_ml-3157:Preparing encoder for fbs...\u001b[0m\n"
+      "\u001b[37mDEBUG:dataprep_ml-2441:Preparing encoder for fbs...\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[37mDEBUG:dataprep_ml-3157:Preparing encoder for restecg...\u001b[0m\n"
+      "\u001b[37mDEBUG:dataprep_ml-2441:Preparing encoder for restecg...\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[37mDEBUG:lightwood-3157:Encoding UNKNOWN categories as index 0\u001b[0m\n"
+      "\u001b[37mDEBUG:lightwood-2441:Encoding UNKNOWN categories as index 0\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[37mDEBUG:dataprep_ml-3157:Preparing encoder for thalach...\u001b[0m\n"
+      "\u001b[37mDEBUG:dataprep_ml-2441:Preparing encoder for thalach...\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[37mDEBUG:dataprep_ml-3157:Preparing encoder for exang...\u001b[0m\n"
+      "\u001b[37mDEBUG:dataprep_ml-2441:Preparing encoder for exang...\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[37mDEBUG:dataprep_ml-3157:Preparing encoder for oldpeak...\u001b[0m\n"
+      "\u001b[37mDEBUG:dataprep_ml-2441:Preparing encoder for oldpeak...\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[37mDEBUG:dataprep_ml-3157:Preparing encoder for slope...\u001b[0m\n"
+      "\u001b[37mDEBUG:dataprep_ml-2441:Preparing encoder for slope...\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[37mDEBUG:lightwood-3157:Encoding UNKNOWN categories as index 0\u001b[0m\n"
+      "\u001b[37mDEBUG:lightwood-2441:Encoding UNKNOWN categories as index 0\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[37mDEBUG:dataprep_ml-3157:Preparing encoder for ca...\u001b[0m\n"
+      "\u001b[37mDEBUG:dataprep_ml-2441:Preparing encoder for ca...\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[37mDEBUG:lightwood-3157:Encoding UNKNOWN categories as index 0\u001b[0m\n"
+      "\u001b[37mDEBUG:lightwood-2441:Encoding UNKNOWN categories as index 0\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[37mDEBUG:dataprep_ml-3157:Preparing encoder for thal...\u001b[0m\n"
+      "\u001b[37mDEBUG:dataprep_ml-2441:Preparing encoder for thal...\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[37mDEBUG:lightwood-3157:Encoding UNKNOWN categories as index 0\u001b[0m\n"
+      "\u001b[37mDEBUG:lightwood-2441:Encoding UNKNOWN categories as index 0\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[37mDEBUG:lightwood-3157: `prepare` runtime: 0.02 seconds\u001b[0m\n"
+      "\u001b[37mDEBUG:lightwood-2441: `prepare` runtime: 0.02 seconds\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:dataprep_ml-3157:[Learn phase 5/8] - Feature generation\u001b[0m\n"
+      "\u001b[32mINFO:dataprep_ml-2441:[Learn phase 5/8] - Feature generation\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:dataprep_ml-3157:Featurizing the data\u001b[0m\n"
+      "\u001b[32mINFO:dataprep_ml-2441:Featurizing the data\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[37mDEBUG:lightwood-3157: `featurize` runtime: 0.09 seconds\u001b[0m\n"
+      "\u001b[37mDEBUG:lightwood-2441: `featurize` runtime: 0.09 seconds\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:dataprep_ml-3157:[Learn phase 6/8] - Mixer training\u001b[0m\n"
+      "\u001b[32mINFO:dataprep_ml-2441:[Learn phase 6/8] - Mixer training\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:dataprep_ml-3157:Training the mixers\u001b[0m\n"
+      "\u001b[32mINFO:dataprep_ml-2441:Training the mixers\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[37mDEBUG:lightwood-3157: `fit_mixer` runtime: 0.12 seconds\u001b[0m\n"
+      "\u001b[37mDEBUG:lightwood-2441: `fit_mixer` runtime: 0.12 seconds\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:dataprep_ml-3157:Ensembling the mixer\u001b[0m\n"
+      "\u001b[32mINFO:dataprep_ml-2441:Ensembling the mixer\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:lightwood-3157:Mixer: RandomForestMixer got accuracy: 0.798\u001b[0m\n"
+      "\u001b[32mINFO:lightwood-2441:Mixer: RandomForestMixer got accuracy: 0.798\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:lightwood-3157:Picked best mixer: RandomForestMixer\u001b[0m\n"
+      "\u001b[32mINFO:lightwood-2441:Picked best mixer: RandomForestMixer\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[37mDEBUG:lightwood-3157: `fit` runtime: 0.13 seconds\u001b[0m\n"
+      "\u001b[37mDEBUG:lightwood-2441: `fit` runtime: 0.13 seconds\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:dataprep_ml-3157:[Learn phase 7/8] - Ensemble analysis\u001b[0m\n"
+      "\u001b[32mINFO:dataprep_ml-2441:[Learn phase 7/8] - Ensemble analysis\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:dataprep_ml-3157:Analyzing the ensemble of mixers\u001b[0m\n"
+      "\u001b[32mINFO:dataprep_ml-2441:Analyzing the ensemble of mixers\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:lightwood-3157:The block ICP is now running its analyze() method\u001b[0m\n"
+      "\u001b[32mINFO:lightwood-2441:The block ICP is now running its analyze() method\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "/opt/hostedtoolcache/Python/3.9.18/x64/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:975: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.\n",
+      "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py:975: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.\n",
       "  warnings.warn(\n",
-      "\u001b[32mINFO:lightwood-3157:The block ConfStats is now running its analyze() method\u001b[0m\n"
+      "\u001b[32mINFO:lightwood-2441:The block ConfStats is now running its analyze() method\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:lightwood-3157:The block AccStats is now running its analyze() method\u001b[0m\n"
+      "\u001b[32mINFO:lightwood-2441:The block AccStats is now running its analyze() method\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:lightwood-3157:The block PermutationFeatureImportance is now running its analyze() method\u001b[0m\n"
+      "\u001b[32mINFO:lightwood-2441:The block PermutationFeatureImportance is now running its analyze() method\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:lightwood-3157:[PFI] Using a random sample (1000 rows out of 31).\u001b[0m\n"
+      "\u001b[32mINFO:lightwood-2441:[PFI] Using a random sample (1000 rows out of 31).\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:lightwood-3157:[PFI] Set to consider first 10 columns out of 10: ['age', 'sex', 'cp', 'trestbps', 'chol', 'fbs', 'restecg', 'thalach', 'exang', 'oldpeak'].\u001b[0m\n"
+      "\u001b[32mINFO:lightwood-2441:[PFI] Set to consider first 10 columns out of 10: ['age', 'sex', 'cp', 'trestbps', 'chol', 'fbs', 'restecg', 'thalach', 'exang', 'oldpeak'].\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "/opt/hostedtoolcache/Python/3.9.18/x64/lib/python3.9/site-packages/sklearn/metrics/_classification.py:2399: UserWarning: y_pred contains classes not in y_true\n",
+      "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/sklearn/metrics/_classification.py:2399: UserWarning: y_pred contains classes not in y_true\n",
       "  warnings.warn(\"y_pred contains classes not in y_true\")\n"
      ]
     },
@@ -986,7 +986,7 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "/opt/hostedtoolcache/Python/3.9.18/x64/lib/python3.9/site-packages/sklearn/metrics/_classification.py:2399: UserWarning: y_pred contains classes not in y_true\n",
+      "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/sklearn/metrics/_classification.py:2399: UserWarning: y_pred contains classes not in y_true\n",
       "  warnings.warn(\"y_pred contains classes not in y_true\")\n"
      ]
     },
@@ -994,35 +994,35 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[37mDEBUG:lightwood-3157: `analyze_ensemble` runtime: 0.27 seconds\u001b[0m\n"
+      "\u001b[37mDEBUG:lightwood-2441: `analyze_ensemble` runtime: 0.27 seconds\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:dataprep_ml-3157:[Learn phase 8/8] - Adjustment on validation requested\u001b[0m\n"
+      "\u001b[32mINFO:dataprep_ml-2441:[Learn phase 8/8] - Adjustment on validation requested\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:dataprep_ml-3157:Updating the mixers\u001b[0m\n"
+      "\u001b[32mINFO:dataprep_ml-2441:Updating the mixers\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[37mDEBUG:lightwood-3157: `adjust` runtime: 0.04 seconds\u001b[0m\n"
+      "\u001b[37mDEBUG:lightwood-2441: `adjust` runtime: 0.04 seconds\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[37mDEBUG:lightwood-3157: `learn` runtime: 0.61 seconds\u001b[0m\n"
+      "\u001b[37mDEBUG:lightwood-2441: `learn` runtime: 0.61 seconds\u001b[0m\n"
      ]
     }
    ],
@@ -1042,10 +1042,10 @@
    "execution_count": 6,
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-02-22T23:13:15.124284Z",
-     "iopub.status.busy": "2024-02-22T23:13:15.123753Z",
-     "iopub.status.idle": "2024-02-22T23:13:15.243354Z",
-     "shell.execute_reply": "2024-02-22T23:13:15.242741Z"
+     "iopub.execute_input": "2024-04-19T21:35:52.586093Z",
+     "iopub.status.busy": "2024-04-19T21:35:52.585886Z",
+     "iopub.status.idle": "2024-04-19T21:35:52.731518Z",
+     "shell.execute_reply": "2024-04-19T21:35:52.730918Z"
     }
    },
    "outputs": [
@@ -1053,142 +1053,142 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:dataprep_ml-3157:[Predict phase 1/4] - Data preprocessing\u001b[0m\n"
+      "\u001b[32mINFO:dataprep_ml-2441:[Predict phase 1/4] - Data preprocessing\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:dataprep_ml-3157:Cleaning the data\u001b[0m\n"
+      "\u001b[32mINFO:dataprep_ml-2441:Cleaning the data\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[37mDEBUG:lightwood-3157: `preprocess` runtime: 0.01 seconds\u001b[0m\n"
+      "\u001b[37mDEBUG:lightwood-2441: `preprocess` runtime: 0.01 seconds\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:dataprep_ml-3157:[Predict phase 2/4] - Feature generation\u001b[0m\n"
+      "\u001b[32mINFO:dataprep_ml-2441:[Predict phase 2/4] - Feature generation\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:dataprep_ml-3157:Featurizing the data\u001b[0m\n"
+      "\u001b[32mINFO:dataprep_ml-2441:Featurizing the data\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "/opt/hostedtoolcache/Python/3.9.18/x64/lib/python3.9/site-packages/numpy/lib/function_base.py:2455: RuntimeWarning: invalid value encountered in _none_fn (vectorized)\n",
+      "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/numpy/lib/function_base.py:2455: RuntimeWarning: invalid value encountered in _none_fn (vectorized)\n",
       "  outputs = ufunc(*inputs)\n",
-      "/opt/hostedtoolcache/Python/3.9.18/x64/lib/python3.9/site-packages/numpy/lib/function_base.py:2455: RuntimeWarning: invalid value encountered in _none_fn (vectorized)\n",
+      "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/numpy/lib/function_base.py:2455: RuntimeWarning: invalid value encountered in _none_fn (vectorized)\n",
       "  outputs = ufunc(*inputs)\n",
-      "/opt/hostedtoolcache/Python/3.9.18/x64/lib/python3.9/site-packages/numpy/lib/function_base.py:2455: RuntimeWarning: invalid value encountered in _none_fn (vectorized)\n",
+      "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/numpy/lib/function_base.py:2455: RuntimeWarning: invalid value encountered in _none_fn (vectorized)\n",
       "  outputs = ufunc(*inputs)\n",
-      "/opt/hostedtoolcache/Python/3.9.18/x64/lib/python3.9/site-packages/numpy/lib/function_base.py:2455: RuntimeWarning: invalid value encountered in _none_fn (vectorized)\n",
+      "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/numpy/lib/function_base.py:2455: RuntimeWarning: invalid value encountered in _none_fn (vectorized)\n",
       "  outputs = ufunc(*inputs)\n",
-      "/opt/hostedtoolcache/Python/3.9.18/x64/lib/python3.9/site-packages/numpy/lib/function_base.py:2455: RuntimeWarning: invalid value encountered in _none_fn (vectorized)\n",
+      "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/numpy/lib/function_base.py:2455: RuntimeWarning: invalid value encountered in _none_fn (vectorized)\n",
       "  outputs = ufunc(*inputs)\n",
-      "/opt/hostedtoolcache/Python/3.9.18/x64/lib/python3.9/site-packages/numpy/lib/function_base.py:2455: RuntimeWarning: invalid value encountered in _none_fn (vectorized)\n",
+      "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/numpy/lib/function_base.py:2455: RuntimeWarning: invalid value encountered in _none_fn (vectorized)\n",
       "  outputs = ufunc(*inputs)\n",
-      "/opt/hostedtoolcache/Python/3.9.18/x64/lib/python3.9/site-packages/numpy/lib/function_base.py:2455: RuntimeWarning: invalid value encountered in _none_fn (vectorized)\n",
+      "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/numpy/lib/function_base.py:2455: RuntimeWarning: invalid value encountered in _none_fn (vectorized)\n",
       "  outputs = ufunc(*inputs)\n",
-      "/opt/hostedtoolcache/Python/3.9.18/x64/lib/python3.9/site-packages/numpy/lib/function_base.py:2455: RuntimeWarning: invalid value encountered in _none_fn (vectorized)\n",
+      "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/numpy/lib/function_base.py:2455: RuntimeWarning: invalid value encountered in _none_fn (vectorized)\n",
       "  outputs = ufunc(*inputs)\n",
-      "\u001b[37mDEBUG:lightwood-3157: `featurize` runtime: 0.02 seconds\u001b[0m\n"
+      "\u001b[37mDEBUG:lightwood-2441: `featurize` runtime: 0.02 seconds\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:dataprep_ml-3157:[Predict phase 3/4] - Calling ensemble\u001b[0m\n"
+      "\u001b[32mINFO:dataprep_ml-2441:[Predict phase 3/4] - Calling ensemble\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[37mDEBUG:lightwood-3157: `_timed_call` runtime: 0.01 seconds\u001b[0m\n"
+      "\u001b[37mDEBUG:lightwood-2441: `_timed_call` runtime: 0.01 seconds\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:dataprep_ml-3157:[Predict phase 4/4] - Analyzing output\u001b[0m\n"
+      "\u001b[32mINFO:dataprep_ml-2441:[Predict phase 4/4] - Analyzing output\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:lightwood-3157:The block ICP is now running its explain() method\u001b[0m\n"
+      "\u001b[32mINFO:lightwood-2441:The block ICP is now running its explain() method\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:lightwood-3157:The block ConfStats is now running its explain() method\u001b[0m\n"
+      "\u001b[32mINFO:lightwood-2441:The block ConfStats is now running its explain() method\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:lightwood-3157:ConfStats.explain() has not been implemented, no modifications will be done to the data insights.\u001b[0m\n"
+      "\u001b[32mINFO:lightwood-2441:ConfStats.explain() has not been implemented, no modifications will be done to the data insights.\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:lightwood-3157:The block AccStats is now running its explain() method\u001b[0m\n"
+      "\u001b[32mINFO:lightwood-2441:The block AccStats is now running its explain() method\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:lightwood-3157:AccStats.explain() has not been implemented, no modifications will be done to the data insights.\u001b[0m\n"
+      "\u001b[32mINFO:lightwood-2441:AccStats.explain() has not been implemented, no modifications will be done to the data insights.\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:lightwood-3157:The block PermutationFeatureImportance is now running its explain() method\u001b[0m\n"
+      "\u001b[32mINFO:lightwood-2441:The block PermutationFeatureImportance is now running its explain() method\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[32mINFO:lightwood-3157:PermutationFeatureImportance.explain() has not been implemented, no modifications will be done to the data insights.\u001b[0m\n"
+      "\u001b[32mINFO:lightwood-2441:PermutationFeatureImportance.explain() has not been implemented, no modifications will be done to the data insights.\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[37mDEBUG:lightwood-3157: `explain` runtime: 0.01 seconds\u001b[0m\n"
+      "\u001b[37mDEBUG:lightwood-2441: `explain` runtime: 0.01 seconds\u001b[0m\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[37mDEBUG:lightwood-3157: `predict` runtime: 0.05 seconds\u001b[0m\n"
+      "\u001b[37mDEBUG:lightwood-2441: `predict` runtime: 0.06 seconds\u001b[0m\n"
      ]
     },
     {
@@ -1232,7 +1232,7 @@
    "name": "python",
    "nbconvert_exporter": "python",
    "pygments_lexer": "ipython3",
-   "version": "3.9.18"
+   "version": "3.9.19"
   }
  },
  "nbformat": 4,

@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Build your own training/testing split &mdash; lightwood 23.12.4.0 documentation</title>
+  <title>Build your own training/testing split &mdash; lightwood 24.3.3.1 documentation</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
       <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css" />
       <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css" />
@@ -42,7 +42,7 @@
               <img src="../../_static/mindsdblogo.png" class="logo" alt="Logo"/>
           </a>
               <div class="version">
-                23.12.4.0
+                24.3.3.1
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
@@ -129,7 +129,16 @@ as a final pass to see what models perform best.</p>
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2623:No torchvision detected, image helpers not supported.</span>
+[nltk_data] Downloading package punkt to /home/runner/nltk_data...
+[nltk_data]   Unzipping tokenizers/punkt.zip.
+</pre></div></div>
+</div>
+<div class="nboutput docutils container">
+<div class="prompt empty docutils container">
+</div>
+<div class="output_area stderr docutils container">
+<div class="highlight"><pre>
+<span class="ansi-green-fg">INFO:lightwood-2232:No torchvision detected, image helpers not supported.</span>
 </pre></div></div>
 </div>
 <div class="nboutput nblast docutils container">
@@ -137,7 +146,7 @@ as a final pass to see what models perform best.</p>
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2623:No torchvision/pillow detected, image encoder not supported</span>
+<span class="ansi-green-fg">INFO:lightwood-2232:No torchvision/pillow detected, image encoder not supported</span>
 </pre></div></div>
 </div>
 <section id="1)-Load-your-data">
@@ -383,7 +392,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Analyzing a sample of 18424</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Analyzing a sample of 18424</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -391,7 +400,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:from a total population of 284807, this is equivalent to 6.5% of your data.</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:from a total population of 284807, this is equivalent to 6.5% of your data.</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -399,7 +408,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Using 3 processes to deduct types.</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Using 3 processes to deduct types.</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -407,7 +416,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Infering type for: Time</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Infering type for: Time</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -415,7 +424,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Infering type for: V3</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Infering type for: V3</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -423,7 +432,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Infering type for: V6</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Infering type for: V6</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -431,7 +440,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Column Time has data type integer</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Column Time has data type integer</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -439,7 +448,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Infering type for: V1</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Infering type for: V1</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -447,7 +456,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Column V6 has data type float</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Column V6 has data type float</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -455,7 +464,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Infering type for: V7</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Infering type for: V7</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -463,7 +472,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Column V3 has data type float</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Column V3 has data type float</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -471,7 +480,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Infering type for: V4</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Infering type for: V4</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -479,7 +488,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Column V7 has data type float</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Column V7 has data type float</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -487,7 +496,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Infering type for: V8</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Infering type for: V8</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -495,7 +504,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Column V1 has data type float</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Column V1 has data type float</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -503,7 +512,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Infering type for: V2</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Column V4 has data type float</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -511,7 +520,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Column V8 has data type float</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Infering type for: V2</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -519,7 +528,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Column V4 has data type float</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Infering type for: V5</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -527,7 +536,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Infering type for: V5</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Column V8 has data type float</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -535,7 +544,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Infering type for: V9</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Infering type for: V9</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -543,7 +552,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Column V2 has data type float</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Column V5 has data type float</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -551,7 +560,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Infering type for: V12</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Column V2 has data type float</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -559,7 +568,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Column V9 has data type float</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Infering type for: V12</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -567,7 +576,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Infering type for: V10</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Column V9 has data type float</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -575,7 +584,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Column V5 has data type float</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Infering type for: V10</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -583,7 +592,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Infering type for: V15</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Infering type for: V15</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -591,7 +600,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Column V12 has data type float</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Column V12 has data type float</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -599,7 +608,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Infering type for: V13</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Infering type for: V13</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -607,7 +616,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Column V10 has data type float</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Column V10 has data type float</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -615,7 +624,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Infering type for: V11</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Infering type for: V11</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -623,7 +632,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Column V15 has data type float</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Column V15 has data type float</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -631,7 +640,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Infering type for: V16</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Infering type for: V16</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -639,7 +648,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Column V13 has data type float</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Column V13 has data type float</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -647,7 +656,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Infering type for: V14</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Infering type for: V14</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -655,7 +664,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Column V16 has data type float</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Column V11 has data type float</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -663,7 +672,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Infering type for: V17</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Infering type for: V18</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -671,7 +680,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Column V11 has data type float</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Column V16 has data type float</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -679,7 +688,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Infering type for: V18</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Infering type for: V17</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -687,7 +696,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Column V17 has data type float</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Column V14 has data type float</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -695,7 +704,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Infering type for: V21</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Infering type for: V21</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -703,7 +712,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Column V14 has data type float</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Column V18 has data type float</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -711,7 +720,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Infering type for: V24</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Infering type for: V19</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -719,7 +728,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Column V18 has data type float</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Column V17 has data type float</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -727,7 +736,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Infering type for: V19</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Infering type for: V24</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -735,7 +744,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Column V21 has data type float</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Column V24 has data type float</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -743,7 +752,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Infering type for: V22</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Infering type for: V25</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -751,7 +760,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Column V22 has data type float</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Column V21 has data type float</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -759,7 +768,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Infering type for: V23</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Infering type for: V22</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -767,7 +776,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Column V24 has data type float</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Column V19 has data type float</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -775,7 +784,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Column V19 has data type float</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Infering type for: V20</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -783,7 +792,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Infering type for: V25</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Column V25 has data type float</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -791,7 +800,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Infering type for: V20</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Infering type for: V26</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -799,7 +808,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Column V25 has data type float</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Column V22 has data type float</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -807,7 +816,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Infering type for: V26</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Infering type for: V23</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -815,7 +824,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Column V23 has data type float</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Column V26 has data type float</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -823,7 +832,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Infering type for: V27</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Column V20 has data type float</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -831,7 +840,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Column V20 has data type float</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Infering type for: V27</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -839,7 +848,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Infering type for: Class</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Infering type for: Class</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -847,7 +856,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Column V26 has data type float</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Column V23 has data type float</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -855,7 +864,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Column Class has data type binary</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Column Class has data type binary</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -863,7 +872,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Column V27 has data type float</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Column V27 has data type float</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -871,7 +880,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Infering type for: V28</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Infering type for: V28</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -879,7 +888,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Column V28 has data type float</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Column V28 has data type float</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -887,7 +896,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Infering type for: Amount</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Infering type for: Amount</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -895,7 +904,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2623:Column Amount has data type float</span>
+<span class="ansi-green-fg">INFO:type_infer-2232:Column Amount has data type float</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -903,7 +912,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:dataprep_ml-2623:Starting statistical analysis</span>
+<span class="ansi-green-fg">INFO:dataprep_ml-2232:Starting statistical analysis</span>
 </pre></div></div>
 </div>
 <div class="nboutput nblast docutils container">
@@ -911,7 +920,7 @@ Text(0.5, 1.0, &#39;Distribution of Classes&#39;)
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:dataprep_ml-2623:Finished statistical analysis</span>
+<span class="ansi-green-fg">INFO:dataprep_ml-2232:Finished statistical analysis</span>
 </pre></div></div>
 </div>
 <p>Lightwood looks at each of the many columns and indicates they are mostly float, with exception of “<strong>Class</strong>” which is binary.</p>
@@ -1091,6 +1100,9 @@ from dataprep_ml.cleaners import cleaner
 from dataprep_ml.splitters import splitter
 from dataprep_ml.imputers import *
 
+from mindsdb_evaluator import evaluate_accuracies
+from mindsdb_evaluator.accuracy import __all__ as mdb_eval_accuracy_metrics
+
 import pandas as pd
 from typing import Dict, List, Union, Optional
 import os
@@ -1138,7 +1150,7 @@ class Predictor(PredictorInterface):
                 &#34;unbias_target&#34;: True,
                 &#34;seconds_per_mixer&#34;: 42768.0,
                 &#34;seconds_per_encoder&#34;: None,
-                &#34;expected_additional_time&#34;: 69.32930588722229,
+                &#34;expected_additional_time&#34;: 68.48364114761353,
                 &#34;time_aim&#34;: 259200,
                 &#34;target_weights&#34;: None,
                 &#34;positive_domain&#34;: False,
@@ -1200,7 +1212,7 @@ class Predictor(PredictorInterface):
             &#34;Amount&#34;: &#34;float&#34;,
             &#34;Class&#34;: &#34;binary&#34;,
         }
-        self.lightwood_version = &#34;23.12.4.0&#34;
+        self.lightwood_version = &#34;24.3.3.1&#34;
         self.pred_args = PredictionArguments()
 
         # Any feature-column dependencies
@@ -1783,6 +1795,58 @@ class Predictor(PredictorInterface):
 
         return df
 
+    def test(
+        self,
+        data: pd.DataFrame,
+        metrics: list,
+        args: Dict[str, object] = {},
+        strict: bool = False,
+    ) -&gt; pd.DataFrame:
+        preds = self.predict(data, args)
+        preds = preds.rename(columns={&#34;prediction&#34;: self.target})
+        filtered = []
+
+        # filter metrics if not supported
+        for metric in metrics:
+            # metric should be one of: an actual function, registered in the model class, or supported by the evaluator
+            if not (
+                callable(metric)
+                or metric in self.accuracy_functions
+                or metric in mdb_eval_accuracy_metrics
+            ):
+                if strict:
+                    raise Exception(f&#34;Invalid metric: {metric}&#34;)
+                else:
+                    log.warning(f&#34;Invalid metric: {metric}. Skipping...&#34;)
+            else:
+                filtered.append(metric)
+
+        metrics = filtered
+        try:
+            labels = self.model_analysis.histograms[self.target][&#34;x&#34;]
+        except:
+            if strict:
+                raise Exception(&#34;Label histogram not found&#34;)
+            else:
+                label_map = (
+                    None  # some accuracy functions will crash without this, be mindful
+                )
+        scores = evaluate_accuracies(
+            data,
+            preds[self.target],
+            self.target,
+            metrics,
+            ts_analysis=self.ts_analysis,
+            labels=labels,
+        )
+
+        # TODO: remove once mdb_eval returns an actual list
+        scores = {k: [v] for k, v in scores.items() if not isinstance(v, list)}
+
+        return pd.DataFrame.from_records(
+            scores
+        )  # TODO: add logic to disaggregate per-mixer
+
 </pre></div></div>
 </div>
 <p>As you can see, an end-to-end pipeline of our entire ML procedure has been generating. There are several abstracted functions to enable transparency as to what processes your data goes through in order to build these models.</p>
@@ -1827,7 +1891,7 @@ class Predictor(PredictorInterface):
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:dataprep_ml-2623:Cleaning the data</span>
+<span class="ansi-green-fg">INFO:dataprep_ml-2232:Cleaning the data</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -1835,7 +1899,7 @@ class Predictor(PredictorInterface):
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-white-fg">DEBUG:lightwood-2623: `preprocess` runtime: 18.61 seconds</span>
+<span class="ansi-white-fg">DEBUG:lightwood-2232: `preprocess` runtime: 18.5 seconds</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -1843,7 +1907,7 @@ class Predictor(PredictorInterface):
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:dataprep_ml-2623:Splitting the data into train/test</span>
+<span class="ansi-green-fg">INFO:dataprep_ml-2232:Splitting the data into train/test</span>
 </pre></div></div>
 </div>
 <div class="nboutput nblast docutils container">
@@ -1851,7 +1915,7 @@ class Predictor(PredictorInterface):
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-white-fg">DEBUG:lightwood-2623: `split` runtime: 1.57 seconds</span>
+<span class="ansi-white-fg">DEBUG:lightwood-2232: `split` runtime: 1.56 seconds</span>
 </pre></div></div>
 </div>
 <div class="nbinput docutils container">
