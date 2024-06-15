@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tutorial - Time series forecasting &mdash; lightwood 24.3.3.1 documentation</title>
+  <title>Tutorial - Time series forecasting &mdash; lightwood 24.5.2.0 documentation</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
       <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css" />
       <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css" />
@@ -42,7 +42,7 @@
               <img src="../../_static/mindsdblogo.png" class="logo" alt="Logo"/>
           </a>
               <div class="version">
-                24.3.3.1
+                24.5.2.0
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
@@ -211,20 +211,13 @@
 </pre></div>
 </div>
 </div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:No torchvision detected, image helpers not supported.</span>
-</pre></div></div>
-</div>
 <div class="nboutput nblast docutils container">
 <div class="prompt empty docutils container">
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:No torchvision/pillow detected, image encoder not supported</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:No torchvision detected, image helpers not supported.</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:No torchvision/pillow detected, image encoder not supported</span>
 </pre></div></div>
 </div>
 <div class="nbinput nblast docutils container">
@@ -287,70 +280,21 @@
 </pre></div>
 </div>
 </div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2784:Analyzing a sample of 2467</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2784:from a total population of 2820, this is equivalent to 87.5% of your data.</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2784:Infering type for: Month</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2784:Column Month has data type date</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2784:Infering type for: Sunspots</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:type_infer-2784:Column Sunspots has data type float</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:dataprep_ml-2784:Starting statistical analysis</span>
-</pre></div></div>
-</div>
 <div class="nboutput nblast docutils container">
 <div class="prompt empty docutils container">
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
+<span class="ansi-green-fg">INFO:type_infer-2688:Analyzing a sample of 2467</span>
+<span class="ansi-green-fg">INFO:type_infer-2688:from a total population of 2820, this is equivalent to 87.5% of your data.</span>
+<span class="ansi-green-fg">INFO:type_infer-2688:Infering type for: Month</span>
+<span class="ansi-green-fg">INFO:type_infer-2688:Column Month has data type date</span>
+<span class="ansi-green-fg">INFO:type_infer-2688:Infering type for: Sunspots</span>
+<span class="ansi-green-fg">INFO:type_infer-2688:Column Sunspots has data type float</span>
+<span class="ansi-green-fg">INFO:dataprep_ml-2688:Starting statistical analysis</span>
 /opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/dataprep_ml/cleaners.py:163: UserWarning: The argument &#39;infer_datetime_format&#39; is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
   result = pd.to_datetime(element,
-<span class="ansi-green-fg">INFO:dataprep_ml-2784:Finished statistical analysis</span>
+<span class="ansi-green-fg">INFO:dataprep_ml-2688:Finished statistical analysis</span>
 </pre></div></div>
 </div>
 </section>
@@ -372,211 +316,36 @@
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:dataprep_ml-2784:[Learn phase 1/8] - Statistical analysis</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:dataprep_ml-2784:Starting statistical analysis</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
+<span class="ansi-green-fg">INFO:dataprep_ml-2688:[Learn phase 1/8] - Statistical analysis</span>
+<span class="ansi-green-fg">INFO:dataprep_ml-2688:Starting statistical analysis</span>
 /opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/dataprep_ml/cleaners.py:163: UserWarning: The argument &#39;infer_datetime_format&#39; is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
   result = pd.to_datetime(element,
-<span class="ansi-green-fg">INFO:dataprep_ml-2784:Finished statistical analysis</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-white-fg">DEBUG:lightwood-2784: `analyze_data` runtime: 0.05 seconds</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:dataprep_ml-2784:[Learn phase 2/8] - Data preprocessing</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:dataprep_ml-2784:Cleaning the data</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
+<span class="ansi-green-fg">INFO:dataprep_ml-2688:Finished statistical analysis</span>
+<span class="ansi-white-fg">DEBUG:lightwood-2688: `analyze_data` runtime: 0.06 seconds</span>
+<span class="ansi-green-fg">INFO:dataprep_ml-2688:[Learn phase 2/8] - Data preprocessing</span>
+<span class="ansi-green-fg">INFO:dataprep_ml-2688:Cleaning the data</span>
 /opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/dataprep_ml/cleaners.py:163: UserWarning: The argument &#39;infer_datetime_format&#39; is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
   result = pd.to_datetime(element,
-<span class="ansi-green-fg">INFO:dataprep_ml-2784:Transforming timeseries data</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-white-fg">DEBUG:lightwood-2784: `preprocess` runtime: 0.09 seconds</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:dataprep_ml-2784:[Learn phase 3/8] - Data splitting</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:dataprep_ml-2784:Splitting the data into train/test</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-white-fg">DEBUG:lightwood-2784: `split` runtime: 0.0 seconds</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:dataprep_ml-2784:[Learn phase 4/8] - Preparing encoders</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-white-fg">DEBUG:dataprep_ml-2784:Preparing sequentially...</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-white-fg">DEBUG:lightwood-2784: `prepare` runtime: 0.05 seconds</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:dataprep_ml-2784:[Learn phase 5/8] - Feature generation</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:dataprep_ml-2784:Featurizing the data</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-white-fg">DEBUG:lightwood-2784: `featurize` runtime: 0.05 seconds</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:dataprep_ml-2784:[Learn phase 6/8] - Mixer training</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:dataprep_ml-2784:Training the mixers</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-yellow-fg">WARNING:lightwood-2784:XGBoost running on CPU</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-yellow-fg">WARNING:lightwood-2784:XGBoost running on CPU</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-yellow-fg">WARNING:lightwood-2784:XGBoost running on CPU</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-yellow-fg">WARNING:lightwood-2784:XGBoost running on CPU</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-yellow-fg">WARNING:lightwood-2784:XGBoost running on CPU</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-yellow-fg">WARNING:lightwood-2784:XGBoost running on CPU</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/torch/cuda/amp/grad_scaler.py:126: UserWarning: torch.cuda.amp.GradScaler is enabled, but CUDA is not available.  Disabling.
+<span class="ansi-green-fg">INFO:dataprep_ml-2688:Transforming timeseries data</span>
+<span class="ansi-white-fg">DEBUG:lightwood-2688: `preprocess` runtime: 0.09 seconds</span>
+<span class="ansi-green-fg">INFO:dataprep_ml-2688:[Learn phase 3/8] - Data splitting</span>
+<span class="ansi-green-fg">INFO:dataprep_ml-2688:Splitting the data into train/test</span>
+<span class="ansi-white-fg">DEBUG:lightwood-2688: `split` runtime: 0.0 seconds</span>
+<span class="ansi-green-fg">INFO:dataprep_ml-2688:[Learn phase 4/8] - Preparing encoders</span>
+<span class="ansi-white-fg">DEBUG:dataprep_ml-2688:Preparing sequentially...</span>
+<span class="ansi-white-fg">DEBUG:lightwood-2688: `prepare` runtime: 0.05 seconds</span>
+<span class="ansi-green-fg">INFO:dataprep_ml-2688:[Learn phase 5/8] - Feature generation</span>
+<span class="ansi-green-fg">INFO:dataprep_ml-2688:Featurizing the data</span>
+<span class="ansi-white-fg">DEBUG:lightwood-2688: `featurize` runtime: 0.04 seconds</span>
+<span class="ansi-green-fg">INFO:dataprep_ml-2688:[Learn phase 6/8] - Mixer training</span>
+<span class="ansi-green-fg">INFO:dataprep_ml-2688:Training the mixers</span>
+<span class="ansi-yellow-fg">WARNING:lightwood-2688:XGBoost running on CPU</span>
+<span class="ansi-yellow-fg">WARNING:lightwood-2688:XGBoost running on CPU</span>
+<span class="ansi-yellow-fg">WARNING:lightwood-2688:XGBoost running on CPU</span>
+<span class="ansi-yellow-fg">WARNING:lightwood-2688:XGBoost running on CPU</span>
+<span class="ansi-yellow-fg">WARNING:lightwood-2688:XGBoost running on CPU</span>
+<span class="ansi-yellow-fg">WARNING:lightwood-2688:XGBoost running on CPU</span>
+/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/torch/amp/grad_scaler.py:131: UserWarning: torch.cuda.amp.GradScaler is enabled, but CUDA is not available.  Disabling.
   warnings.warn(
 </pre></div></div>
 </div>
@@ -585,12 +354,12 @@
 </div>
 <div class="output_area docutils container">
 <div class="highlight"><pre>
-[21:37:02] WARNING: ../src/learner.cc:339: No visible GPU is found, setting `gpu_id` to -1
-[21:37:02] WARNING: ../src/learner.cc:339: No visible GPU is found, setting `gpu_id` to -1
-[21:37:02] WARNING: ../src/learner.cc:339: No visible GPU is found, setting `gpu_id` to -1
-[21:37:02] WARNING: ../src/learner.cc:339: No visible GPU is found, setting `gpu_id` to -1
-[21:37:02] WARNING: ../src/learner.cc:339: No visible GPU is found, setting `gpu_id` to -1
-[21:37:02] WARNING: ../src/learner.cc:339: No visible GPU is found, setting `gpu_id` to -1
+[09:25:33] WARNING: ../src/learner.cc:339: No visible GPU is found, setting `gpu_id` to -1
+[09:25:33] WARNING: ../src/learner.cc:339: No visible GPU is found, setting `gpu_id` to -1
+[09:25:33] WARNING: ../src/learner.cc:339: No visible GPU is found, setting `gpu_id` to -1
+[09:25:33] WARNING: ../src/learner.cc:339: No visible GPU is found, setting `gpu_id` to -1
+[09:25:33] WARNING: ../src/learner.cc:339: No visible GPU is found, setting `gpu_id` to -1
+[09:25:33] WARNING: ../src/learner.cc:339: No visible GPU is found, setting `gpu_id` to -1
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -601,195 +370,32 @@
 /opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/pytorch_ranger/ranger.py:172: UserWarning: This overload of addcmul_ is deprecated:
         addcmul_(Number value, Tensor tensor1, Tensor tensor2)
 Consider using one of the following signatures instead:
-        addcmul_(Tensor tensor1, Tensor tensor2, *, Number value) (Triggered internally at ../torch/csrc/utils/python_arg_parser.cpp:1630.)
+        addcmul_(Tensor tensor1, Tensor tensor2, *, Number value) (Triggered internally at ../torch/csrc/utils/python_arg_parser.cpp:1578.)
   exp_avg_sq.mul_(beta2).addcmul_(1 - beta2, grad, grad)
-<span class="ansi-green-fg">INFO:lightwood-2784:Loss of 9.051180630922318 with learning rate 0.0001</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:Loss of 9.014871209859848 with learning rate 0.0005</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:Loss of 8.969509482383728 with learning rate 0.001</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:Loss of 8.879052013158798 with learning rate 0.002</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:Loss of 8.788950502872467 with learning rate 0.003</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:Loss of 8.611965209245682 with learning rate 0.005</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:Loss of 8.195775926113129 with learning rate 0.01</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:Loss of 6.255893141031265 with learning rate 0.05</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:Found learning rate of: 0.05</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/torch/cuda/amp/grad_scaler.py:126: UserWarning: torch.cuda.amp.GradScaler is enabled, but CUDA is not available.  Disabling.
-  warnings.warn(
-<span class="ansi-green-fg">INFO:lightwood-2784:Loss @ epoch 1: 0.5818348675966263</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:Loss @ epoch 2: 0.4797109067440033</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:Loss @ epoch 3: 0.48386093974113464</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:Loss @ epoch 4: 0.49511992931365967</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:Loss @ epoch 5: 0.39475560188293457</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:Loss @ epoch 6: 0.39592696726322174</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:Loss @ epoch 7: 0.3622782379388809</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:Loss @ epoch 8: 0.38170479238033295</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:Loss @ epoch 9: 0.5138543993234634</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:Loss @ epoch 10: 0.6360723078250885</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:Loss @ epoch 1: 0.29868809472430835</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:Loss @ epoch 2: 0.30318967591632495</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-white-fg">DEBUG:lightwood-2784: `fit_mixer` runtime: 0.92 seconds</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:Started fitting LGBM models for array prediction</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:Started fitting XGBoost model</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:Loss of 9.051180630922318 with learning rate 0.0001</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:Loss of 9.014871209859848 with learning rate 0.0005</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:Loss of 8.969509482383728 with learning rate 0.001</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:Loss of 8.879052013158798 with learning rate 0.002</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:Loss of 8.788950502872467 with learning rate 0.003</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:Loss of 8.611965209245682 with learning rate 0.005</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:Loss of 8.195775926113129 with learning rate 0.01</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:Loss of 6.255893141031265 with learning rate 0.05</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:Found learning rate of: 0.05</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:Loss @ epoch 1: 0.5818348675966263</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:Loss @ epoch 2: 0.4797109067440033</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:Loss @ epoch 3: 0.48386093974113464</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:Loss @ epoch 4: 0.49511992931365967</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:Loss @ epoch 5: 0.39475560188293457</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:Loss @ epoch 6: 0.39592696726322174</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:Loss @ epoch 7: 0.3622782379388809</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:Loss @ epoch 8: 0.38170479238033295</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:Loss @ epoch 9: 0.5138543993234634</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:Loss @ epoch 10: 0.6360723078250885</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:Loss @ epoch 1: 0.29868809472430835</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:Loss @ epoch 2: 0.30318967591632495</span>
+<span class="ansi-white-fg">DEBUG:lightwood-2688: `fit_mixer` runtime: 0.87 seconds</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:Started fitting LGBM models for array prediction</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:Started fitting XGBoost model</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -805,15 +411,8 @@ Consider using one of the following signatures instead:
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:A single GBM iteration takes 0.1 seconds</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:Training XGBoost with 57023 iterations given 7127.98658156395 seconds constraint</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:A single GBM iteration takes 0.1 seconds</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:Training XGBoost with 57023 iterations given 7127.986736297607 seconds constraint</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -822,117 +421,19 @@ Consider using one of the following signatures instead:
 <div class="output_area docutils container">
 <div class="highlight"><pre>
 [0]     validation_0-rmse:42.76798
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [1]     validation_0-rmse:31.72661
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [2]     validation_0-rmse:24.49596
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [3]     validation_0-rmse:20.38592
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [4]     validation_0-rmse:18.09356
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [5]     validation_0-rmse:16.88080
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [6]     validation_0-rmse:16.21734
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [7]     validation_0-rmse:15.95640
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [8]     validation_0-rmse:15.80745
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [9]     validation_0-rmse:15.76428
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [10]    validation_0-rmse:15.89176
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [11]    validation_0-rmse:15.89176
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [12]    validation_0-rmse:15.87901
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [13]    validation_0-rmse:15.87505
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [14]    validation_0-rmse:16.06330
 </pre></div></div>
 </div>
@@ -941,7 +442,7 @@ Consider using one of the following signatures instead:
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:Started fitting XGBoost model</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:Started fitting XGBoost model</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -957,15 +458,8 @@ Consider using one of the following signatures instead:
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:A single GBM iteration takes 0.1 seconds</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:Training XGBoost with 57023 iterations given 7127.989269018173 seconds constraint</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:A single GBM iteration takes 0.1 seconds</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:Training XGBoost with 57023 iterations given 7127.98853635788 seconds constraint</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -974,110 +468,20 @@ Consider using one of the following signatures instead:
 <div class="output_area docutils container">
 <div class="highlight"><pre>
 [0]     validation_0-rmse:42.95930
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [1]     validation_0-rmse:32.27936
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [2]     validation_0-rmse:25.47815
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [3]     validation_0-rmse:21.37610
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [4]     validation_0-rmse:19.25243
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [5]     validation_0-rmse:18.03199
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [6]     validation_0-rmse:17.67706
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [7]     validation_0-rmse:17.57516
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [8]     validation_0-rmse:17.51227
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [9]     validation_0-rmse:17.51216
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [10]    validation_0-rmse:17.55192
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [11]    validation_0-rmse:17.56609
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [12]    validation_0-rmse:17.71702
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [13]    validation_0-rmse:17.75939
+[14]    validation_0-rmse:17.84796
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -1085,7 +489,7 @@ Consider using one of the following signatures instead:
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:Started fitting XGBoost model</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:Started fitting XGBoost model</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -1101,15 +505,8 @@ Consider using one of the following signatures instead:
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:A single GBM iteration takes 0.1 seconds</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:Training XGBoost with 57023 iterations given 7127.988340616226 seconds constraint</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:A single GBM iteration takes 0.1 seconds</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:Training XGBoost with 57023 iterations given 7127.987206697464 seconds constraint</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -1118,101 +515,17 @@ Consider using one of the following signatures instead:
 <div class="output_area docutils container">
 <div class="highlight"><pre>
 [0]     validation_0-rmse:43.14000
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [1]     validation_0-rmse:32.50446
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [2]     validation_0-rmse:25.73040
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [3]     validation_0-rmse:22.16599
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [4]     validation_0-rmse:20.28726
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [5]     validation_0-rmse:19.46406
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [6]     validation_0-rmse:19.07306
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [7]     validation_0-rmse:19.00714
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [8]     validation_0-rmse:19.13990
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [9]     validation_0-rmse:19.12589
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [10]    validation_0-rmse:19.34977
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [11]    validation_0-rmse:19.43217
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [12]    validation_0-rmse:19.48230
 </pre></div></div>
 </div>
@@ -1221,7 +534,7 @@ Consider using one of the following signatures instead:
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:Started fitting XGBoost model</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:Started fitting XGBoost model</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -1237,15 +550,8 @@ Consider using one of the following signatures instead:
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:A single GBM iteration takes 0.1 seconds</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:Training XGBoost with 57023 iterations given 7127.988560676575 seconds constraint</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:A single GBM iteration takes 0.1 seconds</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:Training XGBoost with 57023 iterations given 7127.987531661987 seconds constraint</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -1254,101 +560,17 @@ Consider using one of the following signatures instead:
 <div class="output_area docutils container">
 <div class="highlight"><pre>
 [0]     validation_0-rmse:44.19079
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [1]     validation_0-rmse:34.13289
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [2]     validation_0-rmse:27.40621
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [3]     validation_0-rmse:23.82532
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [4]     validation_0-rmse:22.03399
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [5]     validation_0-rmse:21.07010
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [6]     validation_0-rmse:20.74813
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [7]     validation_0-rmse:20.81255
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [8]     validation_0-rmse:20.69303
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [9]     validation_0-rmse:20.71044
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [10]    validation_0-rmse:20.79641
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [11]    validation_0-rmse:20.78759
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [12]    validation_0-rmse:20.83998
 </pre></div></div>
 </div>
@@ -1357,7 +579,7 @@ Consider using one of the following signatures instead:
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:Started fitting XGBoost model</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:Started fitting XGBoost model</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -1371,25 +593,10 @@ Consider using one of the following signatures instead:
 <div class="nboutput docutils container">
 <div class="prompt empty docutils container">
 </div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
-
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:A single GBM iteration takes 0.1 seconds</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:Training XGBoost with 57023 iterations given 7127.987988948822 seconds constraint</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:A single GBM iteration takes 0.1 seconds</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:Training XGBoost with 57023 iterations given 7127.989136219025 seconds constraint</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -1398,126 +605,27 @@ Consider using one of the following signatures instead:
 <div class="output_area docutils container">
 <div class="highlight"><pre>
 [0]     validation_0-rmse:44.24747
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [1]     validation_0-rmse:34.37446
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [2]     validation_0-rmse:27.88767
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [3]     validation_0-rmse:24.63817
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [4]     validation_0-rmse:22.84209
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [5]     validation_0-rmse:22.35045
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [6]     validation_0-rmse:22.11300
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [7]     validation_0-rmse:22.16132
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [8]     validation_0-rmse:22.21348
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [9]     validation_0-rmse:22.10747
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [10]    validation_0-rmse:22.20352
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [11]    validation_0-rmse:22.25761
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [12]    validation_0-rmse:22.25308
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [13]    validation_0-rmse:22.31415
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
 <div class="prompt empty docutils container">
 </div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
-[14]    validation_0-rmse:22.31000
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:Started fitting XGBoost model</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:Started fitting XGBoost model</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -1533,15 +641,8 @@ Consider using one of the following signatures instead:
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:A single GBM iteration takes 0.1 seconds</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:Training XGBoost with 57023 iterations given 7127.987171649933 seconds constraint</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:A single GBM iteration takes 0.1 seconds</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:Training XGBoost with 57023 iterations given 7127.987683534622 seconds constraint</span>
 </pre></div></div>
 </div>
 <div class="nboutput docutils container">
@@ -1550,359 +651,19 @@ Consider using one of the following signatures instead:
 <div class="output_area docutils container">
 <div class="highlight"><pre>
 [0]     validation_0-rmse:44.48913
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [1]     validation_0-rmse:34.69001
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [2]     validation_0-rmse:28.87323
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [3]     validation_0-rmse:25.32567
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [4]     validation_0-rmse:23.09943
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [5]     validation_0-rmse:22.12203
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [6]     validation_0-rmse:21.71523
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [7]     validation_0-rmse:21.70934
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [8]     validation_0-rmse:21.74380
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [9]     validation_0-rmse:21.61157
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [10]    validation_0-rmse:21.73507
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [11]    validation_0-rmse:21.84587
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [12]    validation_0-rmse:21.78099
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
 [13]    validation_0-rmse:21.68890
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
-
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
-[14]    validation_0-rmse:21.70025
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
-
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-white-fg">DEBUG:lightwood-2784: `fit_mixer` runtime: 0.51 seconds</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:dataprep_ml-2784:Ensembling the mixer</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:Mixer: NeuralTs got accuracy: 0.875</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-yellow-fg">WARNING:lightwood-2784:This model does not output probability estimates</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:Mixer: XGBoostArrayMixer got accuracy: 0.869</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:Picked best mixer: NeuralTs</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-white-fg">DEBUG:lightwood-2784: `fit` runtime: 1.48 seconds</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:dataprep_ml-2784:[Learn phase 7/8] - Ensemble analysis</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:dataprep_ml-2784:Analyzing the ensemble of mixers</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:The block ICP is now running its analyze() method</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:The block ConfStats is now running its analyze() method</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:The block AccStats is now running its analyze() method</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:The block PermutationFeatureImportance is now running its analyze() method</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-yellow-fg">WARNING:lightwood-2784:Block &#39;PermutationFeatureImportance&#39; does not support time series nor text encoding, skipping...</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-white-fg">DEBUG:lightwood-2784: `analyze_ensemble` runtime: 0.16 seconds</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:dataprep_ml-2784:[Learn phase 8/8] - Adjustment on validation requested</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:dataprep_ml-2784:Updating the mixers</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/torch/cuda/amp/grad_scaler.py:126: UserWarning: torch.cuda.amp.GradScaler is enabled, but CUDA is not available.  Disabling.
-  warnings.warn(
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:Loss @ epoch 1: 0.29626286526521045</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:Loss @ epoch 2: 0.2954987535874049</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:Updating array of LGBM models...</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:XGBoost mixer does not have a `partial_fit` implementation</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:XGBoost mixer does not have a `partial_fit` implementation</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:XGBoost mixer does not have a `partial_fit` implementation</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:XGBoost mixer does not have a `partial_fit` implementation</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:XGBoost mixer does not have a `partial_fit` implementation</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:XGBoost mixer does not have a `partial_fit` implementation</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-white-fg">DEBUG:lightwood-2784: `adjust` runtime: 0.09 seconds</span>
 </pre></div></div>
 </div>
 <div class="nboutput nblast docutils container">
@@ -1910,7 +671,36 @@ Consider using one of the following signatures instead:
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-white-fg">DEBUG:lightwood-2784: `learn` runtime: 1.98 seconds</span>
+<span class="ansi-white-fg">DEBUG:lightwood-2688: `fit_mixer` runtime: 0.5 seconds</span>
+<span class="ansi-green-fg">INFO:dataprep_ml-2688:Ensembling the mixer</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:Mixer: NeuralTs got accuracy: 0.875</span>
+<span class="ansi-yellow-fg">WARNING:lightwood-2688:This model does not output probability estimates</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:Mixer: XGBoostArrayMixer got accuracy: 0.869</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:Picked best mixer: NeuralTs</span>
+<span class="ansi-white-fg">DEBUG:lightwood-2688: `fit` runtime: 1.42 seconds</span>
+<span class="ansi-green-fg">INFO:dataprep_ml-2688:[Learn phase 7/8] - Ensemble analysis</span>
+<span class="ansi-green-fg">INFO:dataprep_ml-2688:Analyzing the ensemble of mixers</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:The block ICP is now running its analyze() method</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:The block ConfStats is now running its analyze() method</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:The block AccStats is now running its analyze() method</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:The block PermutationFeatureImportance is now running its analyze() method</span>
+<span class="ansi-yellow-fg">WARNING:lightwood-2688:Block &#39;PermutationFeatureImportance&#39; does not support time series nor text encoding, skipping...</span>
+<span class="ansi-white-fg">DEBUG:lightwood-2688: `analyze_ensemble` runtime: 0.16 seconds</span>
+<span class="ansi-green-fg">INFO:dataprep_ml-2688:[Learn phase 8/8] - Adjustment on validation requested</span>
+<span class="ansi-green-fg">INFO:dataprep_ml-2688:Updating the mixers</span>
+/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/torch/amp/grad_scaler.py:131: UserWarning: torch.cuda.amp.GradScaler is enabled, but CUDA is not available.  Disabling.
+  warnings.warn(
+<span class="ansi-green-fg">INFO:lightwood-2688:Loss @ epoch 1: 0.29626286526521045</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:Loss @ epoch 2: 0.2954987535874049</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:Updating array of LGBM models...</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:XGBoost mixer does not have a `partial_fit` implementation</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:XGBoost mixer does not have a `partial_fit` implementation</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:XGBoost mixer does not have a `partial_fit` implementation</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:XGBoost mixer does not have a `partial_fit` implementation</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:XGBoost mixer does not have a `partial_fit` implementation</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:XGBoost mixer does not have a `partial_fit` implementation</span>
+<span class="ansi-white-fg">DEBUG:lightwood-2688: `adjust` runtime: 0.09 seconds</span>
+<span class="ansi-white-fg">DEBUG:lightwood-2688: `learn` runtime: 1.92 seconds</span>
 </pre></div></div>
 </div>
 </section>
@@ -1925,164 +715,38 @@ Consider using one of the following signatures instead:
 </pre></div>
 </div>
 </div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:dataprep_ml-2784:[Predict phase 1/4] - Data preprocessing</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-/tmp/0272f5027e42974607309fe8ed196dc2528bd349b816521b17135626224323974.py:584: SettingWithCopyWarning:
-A value is trying to be set on a copy of a slice from a DataFrame.
-Try using .loc[row_indexer,col_indexer] = value instead
-
-See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  data[col] = [None] * len(data)
-<span class="ansi-green-fg">INFO:dataprep_ml-2784:Cleaning the data</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/dataprep_ml/cleaners.py:163: UserWarning: The argument &#39;infer_datetime_format&#39; is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
-  result = pd.to_datetime(element,
-<span class="ansi-green-fg">INFO:dataprep_ml-2784:Transforming timeseries data</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-white-fg">DEBUG:lightwood-2784: `preprocess` runtime: 0.02 seconds</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:dataprep_ml-2784:[Predict phase 2/4] - Feature generation</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:dataprep_ml-2784:Featurizing the data</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-white-fg">DEBUG:lightwood-2784: `featurize` runtime: 0.01 seconds</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:dataprep_ml-2784:[Predict phase 3/4] - Calling ensemble</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-white-fg">DEBUG:lightwood-2784: `_timed_call` runtime: 0.09 seconds</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:dataprep_ml-2784:[Predict phase 4/4] - Analyzing output</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:The block ICP is now running its explain() method</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:The block ConfStats is now running its explain() method</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:ConfStats.explain() has not been implemented, no modifications will be done to the data insights.</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:The block AccStats is now running its explain() method</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:AccStats.explain() has not been implemented, no modifications will be done to the data insights.</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:The block PermutationFeatureImportance is now running its explain() method</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-green-fg">INFO:lightwood-2784:PermutationFeatureImportance.explain() has not been implemented, no modifications will be done to the data insights.</span>
-</pre></div></div>
-</div>
-<div class="nboutput docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area stderr docutils container">
-<div class="highlight"><pre>
-<span class="ansi-white-fg">DEBUG:lightwood-2784: `explain` runtime: 0.09 seconds</span>
-</pre></div></div>
-</div>
 <div class="nboutput nblast docutils container">
 <div class="prompt empty docutils container">
 </div>
 <div class="output_area stderr docutils container">
 <div class="highlight"><pre>
-<span class="ansi-white-fg">DEBUG:lightwood-2784: `predict` runtime: 0.22 seconds</span>
+<span class="ansi-green-fg">INFO:dataprep_ml-2688:[Predict phase 1/4] - Data preprocessing</span>
+/tmp/f29b714b9269a4eec4c40774ee0b785949c34ddceaad9f8517184435332234814.py:587: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  data[col] = [None] * len(data)
+<span class="ansi-green-fg">INFO:dataprep_ml-2688:Cleaning the data</span>
+/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/site-packages/dataprep_ml/cleaners.py:163: UserWarning: The argument &#39;infer_datetime_format&#39; is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  result = pd.to_datetime(element,
+<span class="ansi-green-fg">INFO:dataprep_ml-2688:Transforming timeseries data</span>
+<span class="ansi-white-fg">DEBUG:lightwood-2688: `preprocess` runtime: 0.02 seconds</span>
+<span class="ansi-green-fg">INFO:dataprep_ml-2688:[Predict phase 2/4] - Feature generation</span>
+<span class="ansi-green-fg">INFO:dataprep_ml-2688:Featurizing the data</span>
+<span class="ansi-white-fg">DEBUG:lightwood-2688: `featurize` runtime: 0.01 seconds</span>
+<span class="ansi-green-fg">INFO:dataprep_ml-2688:[Predict phase 3/4] - Calling ensemble</span>
+<span class="ansi-white-fg">DEBUG:lightwood-2688: `_timed_call` runtime: 0.09 seconds</span>
+<span class="ansi-green-fg">INFO:dataprep_ml-2688:[Predict phase 4/4] - Analyzing output</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:The block ICP is now running its explain() method</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:The block ConfStats is now running its explain() method</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:ConfStats.explain() has not been implemented, no modifications will be done to the data insights.</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:The block AccStats is now running its explain() method</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:AccStats.explain() has not been implemented, no modifications will be done to the data insights.</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:The block PermutationFeatureImportance is now running its explain() method</span>
+<span class="ansi-green-fg">INFO:lightwood-2688:PermutationFeatureImportance.explain() has not been implemented, no modifications will be done to the data insights.</span>
+<span class="ansi-white-fg">DEBUG:lightwood-2688: `explain` runtime: 0.09 seconds</span>
+<span class="ansi-white-fg">DEBUG:lightwood-2688: `predict` runtime: 0.23 seconds</span>
 </pre></div></div>
 </div>
 <p>Let’s check how a single row might look:</p>
